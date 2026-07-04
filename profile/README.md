@@ -37,14 +37,17 @@ Inside the flake:
 ## raise your own
 
 ```sh
-# nix-native (recommended)
+# nix-native (recommended) — scaffolds a thin config of your own
 nix run github:nebelhaus/nebelhaus#bootstrap
 
-# or grab just the palette:
-brew install nebelhaus/tap/pounce
+# or try just the palette, no install:
+nix run github:nebelhaus/pounce -- --help
 ```
 
 Take the whole house, or steal one room — every piece stands on its own.
+Hacking on the family itself? Start from the
+[workshop](https://github.com/nebelhaus/workshop), which checks out every repo
+side by side and ships the `haus` CLI for the cross-repo flow.
 
 ## the fog
 
