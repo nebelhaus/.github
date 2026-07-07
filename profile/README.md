@@ -1,13 +1,14 @@
 <div align="center">
 
-# nebelhaus
+<!-- the family — org showcase (profile/assets/family-showcase-rounded.png) -->
+![the nebelhaus family](./assets/family-showcase-rounded.png)
 
 **an opinionated macOS, raised in the fog**
 
 silver-grey · keyboard-first · reproducible · nix-native
 
 <!-- assets/hero.png — the whole desktop: Sill bar, Prowl tiling, Pounce open, Nebelung everywhere -->
-![nebelhaus](./assets/hero.png)
+![the nebelhaus desktop](./assets/hero.png)
 
 </div>
 
