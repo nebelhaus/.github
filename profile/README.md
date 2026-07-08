@@ -7,9 +7,6 @@
 
 silver-grey · keyboard-first · reproducible · nix-native
 
-<!-- assets/hero.png — the whole desktop: Sill bar, Prowl tiling, Pounce open, Nebelung everywhere -->
-![the nebelhaus desktop](./assets/hero.png)
-
 </div>
 
 ---
@@ -21,6 +18,14 @@ wipe the machine, run one command, and the house stands again exactly as it was.
 Think *omarchy*, but for macOS instead of Arch.
 
 ## the house
+
+<!-- once shot, uncomment — the whole desktop: Sill bar, Prowl tiling, Pounce open, Nebelung everywhere (shot S1)
+<div align="center">
+
+![the nebelhaus desktop](./assets/hero.png)
+
+</div>
+-->
 
 | | | |
 |---|---|---|
@@ -38,7 +43,10 @@ Inside the flake:
 ## raise your own
 
 ```sh
-# nix-native (recommended) — scaffolds a thin config of your own
+# one line on a fresh Mac — installs the prerequisites, then interviews you
+curl -fsSL https://nebelhaus.com/init.sh | bash
+
+# already have nix? the same bootstrap, straight from the flake:
 nix run github:nebelhaus/nebelhaus#bootstrap
 
 # or try just the palette, no install:
