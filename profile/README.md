@@ -11,57 +11,31 @@ silver-grey · keyboard-first · reproducible · nix-native
 
 ---
 
-macOS, arranged like a tiling Linux rig but native to the grain of the Mac —
-one Nix flake raises the whole house. Fog-grey, quiet, and reproducible:
-wipe the machine, run one command, and the house stands again exactly as it was.
+A small family of tools that turn a Mac into a quiet, keyboard-first, fog-grey
+workstation — arranged like a tiling Linux rig, but native to the grain of the
+Mac. One Nix flake raises the whole house; every piece also stands on its own.
 
-Think *omarchy*, but for macOS instead of Arch.
+**New here?** Start at **[nebelhaus](https://github.com/nebelhaus/nebelhaus)** —
+the flake that ties it all together, with the full tour and a one-line install.
 
-## the house
+## the repos
 
-<!-- once shot, uncomment — the whole desktop: Sill bar, Prowl tiling, Pounce open, Nebelung everywhere (shot S1)
-<div align="center">
-
-![the nebelhaus desktop](./assets/hero.png)
-
-</div>
--->
-
-| | | |
-|---|---|---|
-| 🐾 **[Pounce](https://github.com/nebelhaus/pounce)** | native command palette | summon, aim, pounce — a scriptable, keyboard-first launcher. every command is a file. |
-| 🌫️ **[Nebelung](https://github.com/nebelhaus/nebelung)** | the theme | a silver-mist Catppuccin variant, whiskered to every app you own. |
-| 🏠 **[nebelhaus](https://github.com/nebelhaus/nebelhaus)** | the flake | the whole rice — the den, the prowl, the sill, the collar, in one reproducible tree. |
-
-Inside the flake:
-
-- **Den** — the nix-darwin + home-manager foundation everything rests on.
-- **Prowl** — opinionated AeroSpace tiling. stake out your screen.
-- **Sill** — a SketchyBar setup that perches on the top edge and watches.
-- **Collar** — YubiKey identity & sudo / Touch-ID, done the sane way.
-
-## raise your own
-
-```sh
-# one line on a fresh Mac — installs the prerequisites, then interviews you
-curl -fsSL https://nebelhaus.com/init.sh | bash
-
-# already have nix? the same bootstrap, straight from the flake:
-nix run github:nebelhaus/nebelhaus#bootstrap
-
-# or try just the palette, no install:
-nix run github:nebelhaus/pounce -- --help
-```
-
-Take the whole house, or steal one room — every piece stands on its own.
-Hacking on the family itself? Start from the
-[workshop](https://github.com/nebelhaus/workshop), which checks out every repo
-side by side and ships the `haus` CLI for the cross-repo flow.
+- 🏠 &nbsp;**[nebelhaus](https://github.com/nebelhaus/nebelhaus)** — *the house.*
+  the whole rice — tiling, bar, shell, auth, and the palette — in one
+  reproducible Nix flake. **start here.**
+- 🐾 &nbsp;**[pounce](https://github.com/nebelhaus/pounce)** — *the palette.* a
+  scriptable, keyboard-first launcher: summon, aim, pounce. every command is a
+  file.
+- 🌫️ &nbsp;**[nebelung](https://github.com/nebelhaus/nebelung)** — *the theme.*
+  a silver-mist Catppuccin variant, whiskered onto every app you own.
+- 🧰 &nbsp;**[workshop](https://github.com/nebelhaus/workshop)** — *the bench.*
+  every repo checked out side by side, plus the `haus` CLI that moves changes
+  between them. for hacking on the family itself.
 
 ## the fog
 
-Grey is the point. Nebelung is a low-contrast, muted dark palette for people
-who find Mocha too loud — a cat breed the colour of high fog, hence the name.
+Grey is the point. Nebelung is a low-contrast, muted dark palette for people who
+find Mocha too loud — named for a cat breed the colour of high fog.
 
 ---
 
