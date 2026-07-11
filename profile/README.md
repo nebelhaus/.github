@@ -35,7 +35,7 @@ it all together.
 - 🌫️ &nbsp;**[nebelung](https://github.com/nebelhaus/nebelung)** — *the theme.*
   a silver-mist Catppuccin variant, whiskered onto every app you own.
 - 🧰 &nbsp;**[workshop](https://github.com/nebelhaus/workshop)** — *the bench.*
-  every repo checked out side by side, plus the `haus` CLI that moves changes
+  every repo checked out side by side, plus the `bench` CLI that moves changes
   between them. for hacking on the family itself.
 
 ## the fog
