@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- the family — org showcase (profile/assets/nebelhaus-banner-rounded.png) -->
-![the nebelhaus family](./assets/nebelhaus-banner-rounded.png)
+<!-- M4 fog banner — seamless-loop APNG, fog drifts behind a still wordmark (static fallback: profile/assets/nebelhaus-banner-rounded.png) -->
+![the nebelhaus family](./assets/nebelhaus-banner-fog.png)
 
 **an opinionated macOS, raised in the fog**
 
