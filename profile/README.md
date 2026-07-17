@@ -32,6 +32,9 @@ it all together.
 - 🐾 &nbsp;**[pounce](https://github.com/nebelhaus/pounce)** — *the palette.* a
   scriptable, keyboard-first launcher: summon, aim, pounce. every command is a
   file.
+- 🐦 &nbsp;**[trill](https://github.com/nebelhaus/trill)** — *the messages.* a
+  native SwiftUI iMessage/SMS/RCS client, reading straight from `chat.db`
+  (always read-only).
 - 🌫️ &nbsp;**[nebelung](https://github.com/nebelhaus/nebelung)** — *the theme.*
   a silver-mist Catppuccin variant, whiskered onto every app you own.
 - 🧰 &nbsp;**[workshop](https://github.com/nebelhaus/workshop)** — *the bench.*
