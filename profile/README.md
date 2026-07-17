@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- the family — org showcase (profile/assets/nebelhaus-banner-rounded.png) -->
-![the nebelhaus family](./assets/nebelhaus-banner-rounded.png)
+![the nebelhaus family](https://raw.githubusercontent.com/nebelhaus/.github/main/profile/assets/nebelhaus-banner-rounded.png)
 
 **an opinionated macOS, raised in the fog**
 
